@@ -6,23 +6,50 @@
   </a>
 </p>
 
-> This is a Deep Learning based model that classifiy the fashion wear and detect also.
+> We live in the age of Instagram, YouTube, and Twitter. Images and video (a sequence of images) dominate the way millennials and other weirdos consume information.
+Having models that understand what images show can be crucial for understanding your emotional state (yes, you might get a personalized Coke ad right after you post your breakup selfie on Instagram), location, interests and social group.
+Predominantly, models that understand image data used in practice are (Deep) Neural Networks. Here, we’ll implement a Neural Network image classifier from scratch in Python.
+
+![GIF](webpage/css/speed.gif)
 
 ### 🏠 [Homepage](httt://mani)
 
 ### ✨ [Demo](http://mani)
 
-## Install
+## Install & Working with system setup
 
 ```sh
+# First clone this repository using given command:
+git clone https://github.com/devil-cyber/FashionWear
+
+# Now setup your python enivornment using conda or env
+conda create -n [Enivornment Name] python=3.6.9
+
+# Now go inside app folder in project directory using given command:
+cd app
+
+# Now install all the required library using given command:
 pip install -r requirements.txt
-```
 
-## Usage
+# To run the app locally make a samll change inside 'clientApp.py' 
+port = int(os.getenv("PORT")) # replace this code with below code
+port = 5000
 
-```sh
+# It's time to run our app:
 python clientApp.py
+
+
+
 ```
+
+## Now open postman and hit the url `http://localhost:5000/predict` and provide image in base64 format 
+> You can also convert image to base64 from [here](https://base64.guru/converter/encode/image)
+
+> For more details you can wait for my youtube video
+
+
+## Motivation
+>We live in the age of Instagram, YouTube, and Twitter. Images and video (a sequence of images) dominate the way millennials and other weirdos consume information.Having models that understand what images show can be crucial for understanding your emotional state (yes, you might get a personalized Coke ad right after you post your breakup selfie on Instagram), location, interests and social group.Predominantly, models that understand image data used in practice are (Deep) Neural Networks. Here, we’ll implement a Neural Network image classifier from scratch in Python.
 
 ## Author
 

@@ -122,27 +122,32 @@ function ekUpload(){
     }
   }
   function apiCall(){
-     
- let xhr = new XMLHttpRequest(); 
+    
+   let xhr = new XMLHttpRequest(); 
  let url = " https://clothing-wear.herokuapp.com//predict"; 
  var img = document.createElement('img'); 
  var para = document.createElement('p');
  var uploader = document.getElementById('file-upload-form');
+ uploader.style.display='none';
 
  // open a connection 
  xhr.open("POST", url, true); 
 
  // Set the request header i.e. which type of content you are sending 
  xhr.setRequestHeader("Content-Type", "application/json"); 
-
+ if(xhr.readyState===0 || xhr.readyState===1 || xhr.readyState===2 || xhr.readyState===3){
+  para.innerHTML='Loading.....';
+  document.getElementById('body').appendChild(para); 
+}
  // Create a state change callback 
  xhr.onreadystatechange = function () { 
+   
      if (xhr.readyState === 4 && xhr.status === 200) { 
 
          // Print received data from server 
          let value = JSON.parse(this.response)
          console.log(value); 
-         uploader.style.display='none';
+         
          para.innerHTML= `Class: ${value[0]['className']}, Confidence: ${value[0]['confidence']*100}`;
           document.getElementById('body').appendChild(para); 
          img.src= 'data:image/png;base64,'+value[1]['image'];
@@ -151,10 +156,7 @@ function ekUpload(){
 
 
      } 
-     else{
-          para.innerHTML='Loading.....';
-          document.getElementById('body').appendChild(para); 
-     }
+      
  }; 
 
  // Converting JSON data to string 

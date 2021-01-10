@@ -28,7 +28,7 @@ def predictRoute():
     return jsonify(result)
 
 
-port = int(os.getenv("PORT"))
+port = 5000
 if __name__ == "__main__":
     clApp = ClientApp()
     app.run(host='0.0.0.0', port=port)

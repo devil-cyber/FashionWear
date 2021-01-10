@@ -167,7 +167,8 @@
 }
 #body img{
      
-    width:60vw;
+	width:40vw;
+	height:80vh;
 }
 #body{
     margin-top:-140px;
