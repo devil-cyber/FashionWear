@@ -1,0 +1,44 @@
+item {
+   id: 1
+   name: 'ear_ring'
+}
+item {
+   id: 2
+   name: 'GirlsTopWear'
+}
+item {
+   id: 3
+   name: 'glass'
+}
+item {
+   id: 4
+   name: 'hat'
+}
+item {
+   id: 5
+   name: 'Jacket'
+}
+item {
+   id: 6
+   name: 'MensShorts'
+}
+item {
+   id: 7
+   name: 'MensTopWear'
+}
+item {
+   id: 8
+   name: 'Pant'
+}
+item {
+   id: 9
+   name: 'shoes'
+}
+item {
+   id: 10
+   name: 'tie'
+}
+item {
+   id: 11
+   name: 'watch'
+}
