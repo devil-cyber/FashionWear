@@ -12,9 +12,7 @@ Predominantly, models that understand image data used in practice are (Deep) Neu
 
 ![GIF](webpage/css/speed.gif)
 
-### 🏠 [Homepage](httt://mani)
-
-### ✨ [Demo](http://mani)
+### ✨ [Demo](https://fashionwear.netlify.app/)
 
 ## Install & Working with system setup
 
@@ -64,4 +62,4 @@ python clientApp.py
 Give a ⭐️ if this project helped you!
 
 ***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+_This README will need saome update
