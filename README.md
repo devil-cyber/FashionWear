@@ -8,7 +8,7 @@
 
 > This is a Deep Learning based model that classifiy the fashion wear and detect also.
 
-### ✨ [Demo](https://zealous-goldberg-a85e4a.netlify.app/)
+### ✨ [Demo](https://fashionwear.netlify.app/)
 
 ## Install
 
