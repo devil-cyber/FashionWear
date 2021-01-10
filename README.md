@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> A Deep Learning Model to classify the fashion wear and also setect them.
+# A Deep Learning Model to classify the fashion wear and also detect them.
 
 ![GIF](webpage/css/speed.gif)
 
