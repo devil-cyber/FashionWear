@@ -6,9 +6,7 @@
   </a>
 </p>
 
-> We live in the age of Instagram, YouTube, and Twitter. Images and video (a sequence of images) dominate the way millennials and other weirdos consume information.
-Having models that understand what images show can be crucial for understanding your emotional state (yes, you might get a personalized Coke ad right after you post your breakup selfie on Instagram), location, interests and social group.
-Predominantly, models that understand image data used in practice are (Deep) Neural Networks. Here, we’ll implement a Neural Network image classifier from scratch in Python.
+> A Deep Learning Model to classify the fashion wear and also setect them.
 
 ![GIF](webpage/css/speed.gif)
 
