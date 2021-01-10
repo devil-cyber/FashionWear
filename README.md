@@ -8,9 +8,7 @@
 
 > This is a Deep Learning based model that classifiy the fashion wear and detect also.
 
-### 🏠 [Homepage](httt://mani)
-
-### ✨ [Demo](http://mani)
+### ✨ [Demo](https://zealous-goldberg-a85e4a.netlify.app/)
 
 ## Install
 
